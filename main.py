@@ -3,6 +3,9 @@
 from numseq.fib import fib
 from numseq.geo import *
 from numseq.prime import *
+from datetime import datetime
+
+startTime = datetime.now()
 
 
 def main():
@@ -24,3 +27,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    print(datetime.now() - startTime)
