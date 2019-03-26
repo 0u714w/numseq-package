@@ -27,4 +27,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    print(datetime.now() - startTime)
+    print("The time it took to run this program was {} seconds".format(datetime.now() - startTime))
